@@ -1,0 +1,14 @@
+path: ../datasets/WIDER-20-FamilyGroup  # dataset root dir
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 1
+names: ['face']
+
+roboflow:
+  workspace: nctu-mua3l
+  project: wider-20-familygroup
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nctu-mua3l/wider-20-familygroup/dataset/1
